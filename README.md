@@ -1,1 +1,1 @@
-# registre-login-and-mail-verification
+# register-login-and-mail-verification
