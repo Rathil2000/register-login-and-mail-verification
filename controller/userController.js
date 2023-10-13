@@ -67,7 +67,7 @@ const userLogin = async (req, res) => {
       //const isMatch = await bcrypt.compare(password, user.password)
       const ismatch = password == user.password
 
-      if (ismatch == false) {
+      if (ismatch == true) {
         // Generate JWT Token
         res.send({ "status": "failed", "message": "Email or Password is not Valid" });
 
